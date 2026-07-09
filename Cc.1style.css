@@ -1,0 +1,31 @@
+/*======================================
+      CELESTIAL BABY BLUE CURSOR
+======================================*/
+
+/* Default Cursor */
+html,
+body,
+* {
+    cursor: url("https://raw.githubusercontent.com/cajolaismylia2-collab/-2-Rue-background-css/main/Sans%20titre%2068_20260708212844.png") 0 0, auto !important;
+}
+
+/* Links & Buttons */
+a,
+button,
+.btn,
+input[type="submit"],
+input[type="button"] {
+    cursor: url("https://raw.githubusercontent.com/cajolaismylia2-collab/-2-Rue-background-css/main/Sans%20titre%2068_20260708212844.png") 0 0, pointer !important;
+}
+
+/* Click Cursor */
+html:active,
+body:active,
+*:active,
+a:active,
+button:active,
+.btn:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+    cursor: url("https://raw.githubusercontent.com/cajolaismylia2-collab/-2-Rue-background-css/main/Sans%20titre%2068_20260708212911.png") 0 0, pointer !important;
+}
