@@ -1,0 +1,205 @@
+/*======================================
+      MONOCHROME BLUE THEME
+        Made by: Mayra #170501
+======================================*/
+
+/* BACKGROUND */
+
+body {
+    background:
+        linear-gradient(
+            rgba(5,10,20,.25),
+            rgba(10,15,30,.35)
+        ),
+        url("https://raw.githubusercontent.com/cajolaismylia2-collab/-2-Rue-background-css/main/lv_0_20260708193624.gif")
+        center center / cover fixed no-repeat !important;
+
+    color: #edf4ff !important;
+}
+
+
+/* MAIN AREA */
+
+#main,
+.container,
+.container.main {
+    background: transparent !important;
+}
+
+
+/* BOXES */
+
+.card,
+.box,
+.table,
+.alert,
+.feature,
+.breadcrumb,
+.den-box,
+.user-box,
+.left,
+.right,
+.cave-grid {
+    background: rgba(10,15,25,.78) !important;
+
+    border: 1px solid rgba(120,170,255,.35) !important;
+
+    box-shadow:
+        0 0 15px rgba(80,140,255,.25) !important;
+}
+
+
+/* HEADERS */
+
+.card-header,
+th {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(70,110,200,.85),
+            rgba(25,30,45,.95)
+        ) !important;
+
+    color: white !important;
+
+    text-shadow:
+        0 0 8px #8cb8ff;
+}
+
+
+/* TEXT */
+
+body,
+p,
+span,
+div,
+td,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #edf4ff !important;
+}
+
+h1,h2,h3,h4,h5 {
+    text-shadow:
+        0 0 10px #7daeff;
+}
+
+
+/* LINKS */
+
+a {
+    color: #9fc8ff !important;
+}
+
+a:hover {
+    color: white !important;
+    text-shadow:
+        0 0 10px #8cb8ff;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background: rgba(5,10,20,.9) !important;
+
+    border-bottom:
+        1px solid rgba(120,170,255,.35) !important;
+}
+
+.navbar a {
+    color: #dbe8ff !important;
+}
+
+
+/* BUTTONS */
+
+.btn,
+button,
+input[type="submit"] {
+
+    background:
+        linear-gradient(
+            #6e97ff,
+            #2e3f69
+        ) !important;
+
+    border:
+        1px solid #9fc8ff !important;
+
+    color:white !important;
+
+    box-shadow:
+        0 0 12px rgba(120,170,255,.4);
+}
+
+.btn:hover,
+button:hover {
+    background:#9fc8ff !important;
+    color:#111 !important;
+}
+
+
+/* INPUTS */
+
+input,
+textarea,
+select {
+
+    background:rgba(10,15,25,.9) !important;
+
+    border:
+        1px solid rgba(120,170,255,.4) !important;
+
+    color:white !important;
+}
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-track {
+    background:#080c14;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#6e97ff;
+    border-radius:20px;
+}
+
+
+/* CREDIT */
+
+html::before {
+
+    content:"❄ Made by: Mayra #170501 ❄";
+
+    position:fixed;
+
+    top:10px;
+    right:15px;
+
+    padding:6px 12px;
+
+    background:rgba(10,15,25,.85);
+
+    border:
+        1px solid rgba(120,170,255,.4);
+
+    border-radius:12px;
+
+    color:white;
+
+    font-size:12px;
+
+    text-shadow:
+        0 0 8px #8cb8ff;
+
+    z-index:9999;
+}
